@@ -1,7 +1,7 @@
-node ('mster')
+node ('remote_host')
  {
   
-  def mavenHome = tool name: "maven3.6.3"
+  def mavenHome = tool name: "maven3.9"
   
       echo "GitHub BranhName ${env.BRANCH_NAME}"
       echo "Jenkins Job Number ${env.BUILD_NUMBER}"
